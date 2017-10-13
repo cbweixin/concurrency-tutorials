@@ -1,7 +1,6 @@
-package blockingqueue;
+package blockingqueue.delayqueue;
 
 
-import java.util.Iterator;
 import java.util.concurrent.DelayQueue;
 import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
