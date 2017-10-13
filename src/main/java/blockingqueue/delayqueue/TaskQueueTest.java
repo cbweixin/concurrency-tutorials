@@ -39,6 +39,9 @@ public class TaskQueueTest {
             System.out.println("task 4 -- 2000");
         });
 
+        TaskQueueDaemonThread.getInstance().put(3000, ()->{
+            System.out.println("task 5 -- 3000");
+        });
 
 
 
